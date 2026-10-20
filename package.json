@@ -1,0 +1,23 @@
+{
+  "name": "kaja-uceni",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdao-tech/kaja-uceni.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamdao-tech/kaja-uceni/issues"
+  },
+  "homepage": "https://github.com/adamdao-tech/kaja-uceni#readme",
+  "dependencies": {
+    "@cloudflare/workers-oauth-provider": "^1.2.3"
+  },
+  "devDependencies": {
+    "wrangler": "^4.151.3"
+  },
+  "private": true
+}
